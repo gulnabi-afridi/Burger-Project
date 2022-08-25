@@ -1,0 +1,22 @@
+.button {
+  width: fit-content;
+  border: none;
+  background-color: white;
+  margin-top: 15px;
+  letter-spacing: 1px;
+  font-weight: bold;
+  font-size: 15px;
+  cursor: pointer;
+  margin-bottom: 15px;
+}
+.Cancel {
+  color: green;
+}
+.Continoue {
+  color: orange;
+}
+/* @media (max-width: 500px) {
+  .button {
+    display: none;
+  }
+} */

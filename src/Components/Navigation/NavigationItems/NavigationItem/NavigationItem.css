@@ -1,0 +1,37 @@
+li a {
+  height: 100%;
+  color: white;
+  text-decoration: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+li a:hover {
+  background-color: #8f5c2c;
+  border-bottom: 4px solid #40a4c8;
+}
+.active {
+  background-color: #8f5c2c;
+  border-bottom: 4px solid #40a4c8;
+}
+@media screen and (max-width: 500px) {
+  li a {
+    height: 50px;
+    overflow: hidden;
+    color: #8f5c2c;
+  }
+  ul {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    position: absolute;
+  }
+  li a:hover {
+    background-color: white;
+    color: #40a4c8;
+  }
+  li a.activation {
+    background-color: white;
+    color: #40a4c8;
+  }
+}

@@ -1,0 +1,21 @@
+.toolBar {
+  height: 55px;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: #703b09;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  overflow: hidden;
+  z-index: 100;
+}
+.logo {
+  margin-right: 18px;
+}
+@media screen and (max-width: 500px) {
+  .navigate {
+    display: none;
+  }
+}

@@ -1,0 +1,22 @@
+.Modal {
+  position: fixed;
+  z-index: 500;
+  background-color: white;
+  width: 40%;
+  min-height: 350px;
+  border: 1px solid #ccc;
+  box-shadow: 1px 1px 1px black;
+  padding: 16px;
+  top: 20%;
+  left: 30%;
+  box-sizing: border-box;
+}
+
+@media screen and (max-width: 500px) {
+  .Modal {
+    margin-left: 18px;
+    width: 90%;
+    height: 370px;
+    left: 0.5%;
+  }
+}

@@ -1,0 +1,25 @@
+.sideDrawer {
+  width: 220px;
+  height: 100%;
+  max-width: 70%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  overflow: hidden;
+  background-color: white;
+  z-index: 120;
+  padding: 40px 15px;
+}
+@media screen and (min-width: 500px) {
+  .sideDrawer {
+    display: none;
+  }
+  #sideDrawer {
+    display: none;
+  }
+}
+@media screen and (max-width: 500px) {
+  .navigation {
+    margin-top: -25rem;
+  }
+}

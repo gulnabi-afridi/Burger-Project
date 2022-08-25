@@ -1,0 +1,27 @@
+.order {
+  min-height: 100px;
+  width: 100%;
+  padding: 15px 25px;
+  margin-bottom: 20px;
+  box-shadow: 10px 10px 5px 0px rgba(221, 147, 147, 0.5);
+}
+.orderDiv {
+  margin-left: 40px;
+}
+h3 {
+  color: white;
+  font-size: 18px;
+}
+.orderList {
+  display: block;
+}
+.orderList li::before {
+  content: "\2022";
+  color: white;
+  margin-right: 5px;
+}
+@media screen and (max-width: 500px) {
+  ul {
+    position: relative;
+  }
+}

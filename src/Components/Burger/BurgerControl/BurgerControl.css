@@ -1,0 +1,59 @@
+.burgerControl {
+  display: flex;
+  gap: 3.5rem;
+  align-items: baseline;
+  align-items: center;
+}
+.label {
+  width: 22%;
+}
+.controlButton {
+  width: 78%;
+}
+.burgerControl > :nth-child(1) {
+  font-size: 14px;
+  font-weight: bold;
+}
+.controlButton {
+  display: flex;
+  align-self: flex-end;
+  gap: 0.5rem;
+}
+.controlButton > button {
+  padding: 5px 23px;
+  font-size: 16px;
+}
+.controlButton > button:nth-of-type(1) {
+  background-color: #d39952;
+  border: 2px solid #8f5e1e;
+  color: white;
+  cursor: default;
+}
+.controlButton > button:nth-of-type(2) {
+  background-color: #8f5e1e;
+  border: 2px solid #5c3a0d;
+  color: white;
+}
+/* jab control button disabled hujaye tu ye proprty apply hujaye */
+.controlButton button:disabled {
+  background-color: #ac9980;
+  border: 1px solid #7e7365;
+  color: #ccc;
+}
+/* jab disabled button py user hover */
+.controlButton button:hover:disabled {
+  background-color: #ac9980;
+  color: #ccc;
+  cursor: not-allowed;
+}
+.controlButton > :nth-child(1):hover,
+.controlButton > :nth-child(1):active {
+  cursor: pointer;
+  background-color: #daa972;
+}
+.controlButton > :nth-child(2):hover,
+.controlButton > :nth-child(2):active {
+  cursor: pointer;
+  background-color: #daa972;
+  color: white;
+}
